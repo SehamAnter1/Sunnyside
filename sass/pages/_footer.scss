@@ -1,0 +1,13 @@
+.footer{
+   background-color: $footerBg;
+   li a,.logo h2{
+      color: $footerText!important;
+   }
+   ul ul{     
+   justify-content: space-between;
+}
+.con{
+   display: grid;
+   grid-gap: 1.7rem;
+}
+}

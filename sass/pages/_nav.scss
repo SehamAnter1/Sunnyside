@@ -1,0 +1,16 @@
+.header  {
+     background-image: url(../../assets/desktop/image-header.jpg);
+     height: 85vh;
+     width: 100%;
+     background-size: cover;
+     background-position: bottom;
+     color: $White!important;
+    .nav-link button{
+      background: white;
+      border: none;
+      color: #155a7c;
+      font-weight: bold;
+      padding: 3px 15px;
+      border-radius: 15px;
+    }
+}

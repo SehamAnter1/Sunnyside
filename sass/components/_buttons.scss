@@ -1,0 +1,10 @@
+button:focus{
+    border: none;
+}
+.requestButton{
+    background: linear-gradient(45deg, hsl(122, 81%, 51%), hsl(192, 71%, 51%));
+    border-radius: 20px;
+    padding: 4px 15px;
+    border: none;
+    font-size: 13px;
+}

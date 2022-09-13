@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.google.com/specimen/Public+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.google.com/specimen/Barlow');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bellefair', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Barlow';
+    font-family: 'Fraunces'; 
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+p {
+    font-size: 15px;
+    color: $Very_dark_grayish_blue;
+}
+
+img {
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+a{
+color: $Very_dark_desaturated_blue!important;
+font-weight: bold;
+text-decoration: none;
+
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 42px;
+    color: $White!important;
+}
+nav a, nav i.nav-link{
+    color: #fff!important;
+}
